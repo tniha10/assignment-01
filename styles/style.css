@@ -27,17 +27,21 @@ header{
     padding-top: 16px;
 }
 
-nav {
+.container{
     width: 90%;
     max-width: 1400px;
     margin: 0px auto;
+}
+
+nav {
+    
     padding: 0px 0px 16px;
     display: flex;
     align-items: center;
 }
 
 nav .menu{
-    flex: 1;
+    flex: 1; /*It is said this will make space*/
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -53,3 +57,93 @@ nav .menu a{
 nav .button{
     margin-left: 24px;
 }
+
+.hero-parent{
+    background: url("../assets/hero-bg.png") center no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 10% 0;
+    color: #FFFFFF;
+}
+
+.hero-left{
+    max-width: 520px;
+}
+
+.hero-left h1{
+    line-height: 1.15;
+    margin-bottom: 16px;
+    font-size: 44px;
+}
+
+.first-color{
+    color: #FFFFFF;
+}
+
+.second-color{
+    color: #30B868;
+}
+
+.hero-left p{
+    font-size: 15px;
+    margin-bottom: 28px;
+    line-height:1.6;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero-btn button{
+    width: 300px;
+    border: none;
+    padding: 15px 18px 15px 18px;
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 700px;
+}
+
+.first-button{ 
+    background-color: #30B868;
+    border: none;
+    border-radius:10px;
+    color: #FFFFFF;
+    
+}
+
+.second-button{
+    background-color: transparent;
+    border: 10px solid #FFFFFF;
+    border-radius: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.btn-icon{
+    width: 14px;
+    height: 14px;
+}
+
+.badge{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:4px 16px;
+    gap: 6px;
+    border:1px solid #FFFFFF;;
+    border-radius: 999px;
+    font-size: 16px;
+}
+
+
+
+
+

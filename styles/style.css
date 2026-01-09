@@ -197,4 +197,69 @@ nav .button{
     display: inline-block;
 }
 
+.result{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 120px 0;
+    background-color: #FFFFFF;
+}
+
+.result-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.result-title{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #30B868;
+}
+
+.result-text h2{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 18px;
+    color: #001931;
+}
+
+.result-para{
+    font-size: 16px; 
+    line-height: 1.7;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #627382;
+}
+
+.result-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 24px 0 0;
+    padding: 0;
+}
+
+.result-list li{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #001931;
+}
+
+.result-list span{
+    display: block;
+    line-height: 1.6;
+}
+
+
+
+
+
 

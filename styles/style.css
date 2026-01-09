@@ -117,6 +117,7 @@ nav .button{
     border: none;
     border-radius:10px;
     color: #FFFFFF;
+    cursor: pointer;
     
 }
 
@@ -143,7 +144,57 @@ nav .button{
     font-size: 16px;
 }
 
+.section-heading{
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto 80px auto;
+}
 
+.section-heading h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #001931;
+}
 
+.section-heading p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 2px;
+    font-weight: 500;
+    color: #627382;
+}
+
+.notes{
+    background-color: #FFFFFF;
+    padding: 50px;
+    
+}
+
+.notes .note-box{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+
+}
+
+.note-card{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    min-width: 240px;
+    color: #001931;
+}
+
+.note-para{
+    color: #627382;
+}
+
+.note-card img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
 
 
